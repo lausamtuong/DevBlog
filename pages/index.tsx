@@ -46,7 +46,7 @@ const Home: NextPage = ({
           <h1 className="text-[3rem]">🔥BLOG🔥</h1>
           <Typewriter
             options={{
-              strings: [" Welcome to DevBlog"],
+              strings: [" Welcome to DevBlog","Author: Obs Tuong","My Github: https://github.com/lausamtuong"],
               autoStart: true,
               loop: true,
             }}
