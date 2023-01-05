@@ -11,7 +11,7 @@ const BlogPost: NextPage = ({
   return (
     <section className="layout">
       <title>{title}</title>
-      <div className="max-w-[50%]">
+      <div className="max-w-[90%] sm:max-w-[70%] md:max-w-[60%] ">
         <h1 className="text-center my-10 text-[2rem] font-bold"> {title} </h1>
         <div className="flex justify-center mb-4">
           <BlogHeader createdAt={createdAt} author={author} />
